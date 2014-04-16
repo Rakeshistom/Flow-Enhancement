@@ -1,0 +1,23 @@
+<apex:page showHeader="false">
+<center><font size ="6"><u>Child Care Donation Page</u></font></center>
+<style type="text/css">
+.FlowText {
+  color: green;
+}
+.FlowCurrency{
+  color: Blue;
+}
+.FlowContainer {
+  line-height: 150%;
+  margin-left: 80px;
+  margin-top: 70px;
+  padding: 10px 10px;
+  width: 1000px;
+  background-color: LightCoral ;
+}
+</style>
+<flow:interview name="Flow_enhancement"                
+                finishLocation="{!URLFOR('/home/home.jsp')}" 
+                buttonLocation="bottom" 
+                buttonStyle=" color:orange; border:1px solid;" />
+</apex:page>
